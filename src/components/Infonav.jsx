@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="nav-right">
             <div className="nav-item">
               <FiZap className="nav-icon" />
-              <span>Support: 9211510600 </span>
+              <span>Support: 9211510600000 </span>
             </div>
 
             <div className="nav-item">
