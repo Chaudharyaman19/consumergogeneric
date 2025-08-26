@@ -59,7 +59,7 @@
 
 @media (max-width: 390px) {
   .nav-container {
-    width: 104% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

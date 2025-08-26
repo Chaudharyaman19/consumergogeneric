@@ -74,7 +74,7 @@
     object-fit: cover;
     margin-top: 2px;
   }
-  .desktopslide{
+  .desktopslide {
     display: none !important;
   }
   .phoneslider {
@@ -87,6 +87,5 @@
     height: 650px;
     object-fit: cover;
     margin-top: 2px;
-    margin-left: 12px;
   }
 }

@@ -188,16 +188,12 @@
 @media screen and (max-width: 390px) {
   .aqua-swiper {
     width: 100%;
-    margin-left: 8px;
+    margin-left: 0px !important;
     padding-top: 3rem;
   }
-  .aqua-swiper {
-    width: 100%;
-    margin-left: 9px !important;
-    padding-top: 3rem;
-  }
+
   .insights-section {
-    margin-left: 16px;
+    margin-left: 0px !important;
     padding: 60px 20px;
     background-color: #fdfdfd;
   }

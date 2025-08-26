@@ -52,6 +52,6 @@
 @media (max-width: 390px) {
   .categories-section {
     padding: 20px;
-    margin-left: 18px !important;
+    margin-left: 0px !important;
   }
 }
