@@ -55,7 +55,9 @@ export default function AquaticAnimals() {
           Generic medicines are drugs that have the same active ingredients,
           strength, dosage, and effect as branded medicines.
         </p>
-        <a href="https://play.google.com/store/games?pli=1">download app</a>
+        <a href="https://play.google.com/store/apps/details?id=com.gogeneric.user">
+          download app
+        </a>
       </div>
 
       <Swiper
