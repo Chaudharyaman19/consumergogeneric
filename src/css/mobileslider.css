@@ -2,7 +2,7 @@
   width: 100%;
   display: none;
   height: 28.5vh;
-  background: #dadada !important;
+  background: white !important;
   color: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -15,7 +15,7 @@
 .unique-slide {
   text-align: center;
   font-size: 18px;
-  background: #dadada !important;
+  background: white !important;
   display: flex;
   justify-content: center;
   align-items: center;
