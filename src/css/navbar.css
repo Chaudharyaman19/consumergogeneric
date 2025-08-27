@@ -9,6 +9,10 @@
   top: 0;
   z-index: 1000;
 }
+.m {
+  display: none;
+}
+
 .nav-logo {
   width: 60px;
   height: 60px;
@@ -123,6 +127,10 @@
 }
 
 @media (max-width: 768px) {
+  .m {
+    display: block !important;
+  }
+
   .main-navbar {
     flex-wrap: wrap;
   }

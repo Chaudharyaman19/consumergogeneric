@@ -51,14 +51,14 @@ const Navbar = () => {
           justifyContent: "space-between",
         }}
       >
-        {" "}
         <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>
-          {menuOpen ? <IoMdClose size={40} /> : <GiHamburgerMenu size={40} />}
+          {menuOpen ? <IoMdClose size={38} /> : <GiHamburgerMenu size={35} />}
         </div>
         <div style={{ marginTop: "20px" }}>
           <img
+            className="m"
             src={logo}
-            alt=""
+            alt="lofo"
             style={{ width: "100px", height: "100px", borderRadius: "50%" }}
           />
         </div>

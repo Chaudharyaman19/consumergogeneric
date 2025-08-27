@@ -31,6 +31,9 @@
 }
 
 @media (max-width: 768px) {
+  .nav-nav {
+    display: none !important;
+  }
   .card-wrapperrr-unique {
     padding: 20px 0px !important;
     margin: auto;

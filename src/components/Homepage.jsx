@@ -17,10 +17,12 @@ import Footer from "./Footer";
 import Infonav from "./Infonav";
 import Insightphone from "./Insightphone";
 import Feedback from "./Feedback";
+import Mobileslider from "./Mobileslider";
 
 const HomePage = () => {
   return (
     <>
+      <Mobileslider />
       <Infonav />
       <Navbar />
 
