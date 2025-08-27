@@ -4,6 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import "../css/navbar.css";
+import logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
@@ -41,8 +42,26 @@ const Navbar = () => {
         </button>
       </div> */}
 
-      <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>
-        {menuOpen ? <IoMdClose size={35} /> : <GiHamburgerMenu size={35} />}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "20px",
+          width: "100%",
+          justifyContent: "space-between",
+        }}
+      >
+        {" "}
+        <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>
+          {menuOpen ? <IoMdClose size={40} /> : <GiHamburgerMenu size={40} />}
+        </div>
+        <div style={{ marginTop: "20px" }}>
+          <img
+            src={logo}
+            alt=""
+            style={{ width: "100px", height: "100px", borderRadius: "50%" }}
+          />
+        </div>
       </div>
     </nav>
   );

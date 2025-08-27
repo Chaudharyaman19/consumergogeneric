@@ -1,10 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import mupcomming1 from "../assets/mupcomming1.png";
-import mupcomming2 from "../assets/mupcomming2.png";
-import mupcomming3 from "../assets/mupcomming3.png";
-import mupcomming4 from "../assets/mupcomming4.png";
+import labs from "../assets/labs.png";
+import doctor from "../assets/doctor.png";
+import healthcard from "../assets/healthcard.png";
+import hospital from "../assets/hospital.png";
 import {
   FaStar,
   FaMapMarkerAlt,
@@ -19,7 +19,7 @@ import "../css/featured.css";
 const featuredData = [
   {
     id: 3,
-    img: mupcomming1,
+    img: doctor,
     // category: "Hospital",
     // rating: "3k+ Rating",
     // stars: 4,
@@ -29,7 +29,7 @@ const featuredData = [
   },
   {
     id: 3,
-    img: mupcomming2,
+    img: hospital,
     // category: "Hospital",
     // rating: "3k+ Rating",
     // stars: 4,
@@ -39,7 +39,7 @@ const featuredData = [
   },
   {
     id: 3,
-    img: mupcomming3,
+    img: labs,
     // category: "Hospital",
     // rating: "3k+ Rating",
     // stars: 4,
@@ -49,7 +49,7 @@ const featuredData = [
   },
   {
     id: 3,
-    img: mupcomming4,
+    img: healthcard,
     // category: "Hospital",
     // rating: "3k+ Rating",
     // stars: 4,
