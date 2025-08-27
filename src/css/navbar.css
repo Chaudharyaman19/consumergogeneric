@@ -179,6 +179,7 @@
     cursor: pointer;
   }
   .main-navbar {
+    padding: 0px  10px!important;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
