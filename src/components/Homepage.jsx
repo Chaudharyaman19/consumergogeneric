@@ -18,6 +18,7 @@ import Infonav from "./Infonav";
 import Insightphone from "./Insightphone";
 import Feedback from "./Feedback";
 import Mobileslider from "./Mobileslider";
+import SocialLinks from "./Sociallink";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <Mobileslider />
       <Infonav />
       <Navbar />
+      <SocialLinks />
 
       <div id="home">
         <Consumerslider />
