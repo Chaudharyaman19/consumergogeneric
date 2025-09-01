@@ -26,7 +26,7 @@ const HomePage = () => {
       <Mobileslider />
       <Infonav />
       <Navbar />
-      <SocialLinks />
+      <SocialLinks />  
 
       <div id="home">
         <Consumerslider />

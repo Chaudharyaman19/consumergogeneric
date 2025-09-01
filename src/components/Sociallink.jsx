@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import "../css/social.css";
 
 const SocialLinks = () => {

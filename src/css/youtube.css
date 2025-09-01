@@ -16,7 +16,6 @@
   width: 100%;
   margin: 0 auto;
   padding-bottom: 56.25%;
-  height: 0;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -37,7 +36,6 @@
   color: #333;
 }
 
-/* Mobile optimization */
 @media (max-width: 768px) {
   .video-section-heading {
     font-size: 1.8rem;
@@ -46,5 +44,12 @@
   .video-description {
     font-size: 1rem;
     padding: 0 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-container {
+    height: 725px;
+    padding-bottom: 0;
   }
 }
