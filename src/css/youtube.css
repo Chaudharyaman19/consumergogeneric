@@ -1,5 +1,6 @@
 .video-section {
   padding: 20px;
+
   text-align: center;
   background-color: #f8f8f8;
   margin-top: 100px !important;
@@ -49,7 +50,8 @@
 
 @media (min-width: 1024px) {
   .video-container {
-    height: 725px;
+    height: 740px;
+
     padding-bottom: 0;
   }
 }
