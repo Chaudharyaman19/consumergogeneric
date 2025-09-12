@@ -1,0 +1,234 @@
+/* Container & general */
+.ld-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.ld-title {
+  text-align: center;
+  font-size: 30px !important;
+  font-size: 24px;
+  color: #333;
+}
+
+.ld-search-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ld-search {
+  width: 50%;
+  max-width: 400px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Main row */
+.ld-main-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Labs container */
+.ld-labs-row {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+  overflow-x: auto; /* horizontal scroll if more labs */
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Each lab card */
+.ld-lab-card {
+  padding: 15px;
+  min-width: 300px;
+  width: 50%; /* 2 cards per row */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+/* Lab info */
+.ld-lab-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Tests list inside lab */
+.ld-tests-list {
+  max-height: 500px;
+  overflow-y: auto; /* vertical scroll for tests */
+  padding-right: 5px;
+}
+
+/* Test row */
+.ld-test-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+
+  border-radius: 4px;
+}
+
+.ld-test-info {
+  flex: 1;
+}
+
+.ld-test-code {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.ld-test-name {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Test actions */
+.ld-test-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ld-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.ld-compare-btn,
+.ld-add-slot-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.ld-compare-btn {
+  background: #667eea;
+  color: white;
+}
+
+.ld-add-slot-btn {
+  background-color: #dadada;
+  color: #333;
+}
+
+.ld-add-slot-btn:hover {
+  background-color: #dadada;
+}
+
+/* Booking form */
+.fb-layout {
+  flex: 1;
+  min-width: 280px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+/* Scrollbars - unified */
+.ld-tests-list,
+.ld-labs-row,
+.fb-layout {
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.ld-tests-list::-webkit-scrollbar,
+.ld-labs-row::-webkit-scrollbar,
+.fb-layout::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px; /* horizontal scrollbar */
+}
+
+.ld-tests-list::-webkit-scrollbar-thumb,
+.ld-labs-row::-webkit-scrollbar-thumb,
+.fb-layout::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.ld-tests-list::-webkit-scrollbar-track,
+.ld-labs-row::-webkit-scrollbar-track,
+.fb-layout::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .ld-lab-card {
+    width: 100%; /* 1 per row on smaller screens */
+  }
+
+  .ld-search {
+    width: 80%;
+  }
+}
+.ld-search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ld-guide-text {
+  font-size: 15px;
+  color: #444;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.ld-search-row {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ld-search {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ld-upload-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background: #f9f9f9;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.ld-upload-label:hover {
+  border-color: #007bff;
+  background: #eef5ff;
+}
+
+.ld-upload {
+  display: none;
+}
+
+.ld-upload-icon {
+  font-size: 16px;
+  color: #007bff;
+}

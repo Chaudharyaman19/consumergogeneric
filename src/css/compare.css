@@ -1,0 +1,45 @@
+.cmp-container {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.cmp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cmp-table th,
+.cmp-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.cmp-btn {
+  padding: 4px 8px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.cmp-low {
+  background: #28a745;
+}
+.cmp-high {
+  background: #dc3545;
+}
+.cmp-remove {
+  background: #6c757d;
+}
+
+.cmp-empty {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
