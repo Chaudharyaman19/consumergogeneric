@@ -13,7 +13,7 @@
 }
 
 .ak-footer-logo img {
-  max-width: 160px;
+  max-width: 260px;
   margin-bottom: 20px;
 }
 
@@ -150,4 +150,11 @@
 .ak-copyright-text a {
   color: #ff5e14;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .ak-footer-logo img {
+    max-width: 50px;
+    display: none;
+    margin-bottom: 20px;
+  }
 }

@@ -223,7 +223,7 @@
     justify-content: space-between;
 
     min-height: 0vh !important;
-    padding: 0px 0px;
+    padding: 30px 0px;
     gap: 3rem;
     position: relative;
   }

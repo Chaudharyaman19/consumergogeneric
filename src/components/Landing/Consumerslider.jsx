@@ -70,8 +70,8 @@ export default function AquaticAnimals() {
           delay: 1500,
           disableOnInteraction: false,
         }}
-        keyboard={{ enabled: true }}
-        mousewheel={{ thresholdDelta: 70 }}
+        // keyboard={{ enabled: true }}
+        // mousewheel={{ thresholdDelta: 70 }}
         pagination={{ clickable: true }}
         coverflowEffect={{
           rotate: 0,

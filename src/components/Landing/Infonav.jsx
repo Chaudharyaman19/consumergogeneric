@@ -1,14 +1,17 @@
 import { FiZap, FiMail, FiMapPin } from "react-icons/fi";
 import "../../css/Infonav.css";
-import logo from "../../assets/logo.png";
+import newlogo from "../../assets/newlogo.png";
 
 const Navbar = () => {
   return (
     <>
       <div>
         <nav className="nav-container nav-nav">
-          <div className="nav-logo">
-            <img src={logo} alt="Gogeneric" />
+          <div
+            className="nav-logo"
+            style={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
+            <img src={newlogo} alt="Gogeneric" />
           </div>
           <div className="nav-right">
             <div className="nav-item">
@@ -18,11 +21,11 @@ const Navbar = () => {
 
             <div className="nav-item">
               <FiMail className="nav-icon" />
-              <span>gogenericmed@gmail.com</span>
+              <span>info@gogenericpharma.com</span>
             </div>
             <div className="nav-item">
               <FiMapPin className="nav-icon" />
-              <span>Ghaziabad ( Sahibabad)</span>
+              <span>Delhi( NCR )</span>
             </div>
           </div>
         </nav>

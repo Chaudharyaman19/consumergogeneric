@@ -3,13 +3,13 @@
   justify-content: space-between;
   align-items: center;
   background: #003366;
-  padding: 20px 30px;
+  padding: 0px 30px;
   color: white;
 }
 
 .nav-logo {
-  width: 90px;
-  height: 90px;
+  width: 198px;
+  height: 94px;
   font-size: 1.5rem;
   font-weight: bold;
 }

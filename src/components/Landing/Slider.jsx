@@ -6,24 +6,28 @@ import "../../css/slider.css";
 import banner1 from "../../assets/banner1.png";
 import banner2 from "../../assets/banner2.png";
 import banner3 from "../../assets/banner3.png";
+import newcon from "../../assets/newcon.png";
+import babuana from "../../assets/babuana.png";
+import dore from "../../assets/dore.png";
+import dora from "../../assets/dora.png";
 
 const BannerSlider = () => {
   const sliderRef = useRef(null);
 
   const slides = [
     {
-      img: banner3,
+      img: newcon,
       title: "Welcome to Our Hospital",
       subtitle: "Providing the best healthcare for you and your family",
     },
 
     {
-      img: banner2,
+      img: dore,
       title: "24/7 Emergency Services",
       subtitle: "We are here for you anytime",
     },
     {
-      img: banner1,
+      img: dora,
       title: "Modern Facilities",
       subtitle: "Advanced equipment for accurate treatment",
     },
@@ -41,16 +45,19 @@ const BannerSlider = () => {
     arrows: false,
   };
 
-  return (
+  https: return (
     <div className="banner-slider desktopslide">
       <Slider ref={sliderRef} {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="slide-container">
-            <img
-              src={slide.img}
-              alt={`Banner ${index}`}
-              className="slider-img"
-            />
+            <a href="https://play.google.com/store/apps/details?id=com.gogeneric.user">
+              {" "}
+              <img
+                src={slide.img}
+                alt={`Banner ${index}`}
+                className="slider-img"
+              />
+            </a>
             <div className="slide-text">
               {/* <h1>{slide.title}</h1>
               <p>{slide.subtitle}</p> */}

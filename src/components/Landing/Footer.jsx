@@ -1,5 +1,5 @@
 import "../../css/Footer.css";
-import logo from "../../assets/logo.png";
+import newlogo from "../../assets/newlogo.png";
 import {
   FaFacebookF,
   FaTwitter,
@@ -15,7 +15,7 @@ const FooterSection = () => {
         <div className="ak-footer-content">
           <div className="ak-footer-col">
             <div className="ak-footer-logo">
-              <img src={logo} alt="Logo" />
+              <img src={newlogo} alt="Logo" />
             </div>
             <p className="ak-footer-text">
               Go Generic is an informational platform dedicated to spreading
@@ -89,7 +89,7 @@ const FooterSection = () => {
 
       <div className="ak-copyright-area">
         <p className="ak-copyright-text">
-          © {new Date().getFullYear()} Go Generic | Designed with ❤️
+          © {new Date().getFullYear()} Go Generic | All Rights Reserved.
         </p>
       </div>
     </footer>

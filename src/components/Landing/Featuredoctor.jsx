@@ -113,7 +113,6 @@ const FeaturedSlider = () => {
           <div key={item.id} className="card-wrapperr">
             {item.title === "Labs" ? (
               <Link
-                to="/labdata"
                 className="pro-card-link"
                 style={{ textDecoration: "none" }}
               >
