@@ -6,6 +6,7 @@ import { IoMdClose } from "react-icons/io";
 import "../../css/navbar.css";
 import newlogo from "../../assets/newlogo.png";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -26,7 +27,11 @@ const Navbar = () => {
         <li onClick={() => scrollToSection("about")}>About</li>
         <li onClick={() => scrollToSection("category")}>Services</li>
         <li onClick={() => scrollToSection("featuredoctor")}>Doctors</li>
-        <li onClick={() => scrollToSection("metdoctor")}>Hospital</li>
+        {/* <li onClick={() => scrollToSection("metdoctor")}>Blog</li> */}
+        <Link to="/blog" style={{ textDecoration: "none", color: "white" }}>
+          {" "}
+          <li>Blog</li>
+        </Link>
         <li onClick={() => scrollToSection("footer")}>Contact</li>
       </ul>
 

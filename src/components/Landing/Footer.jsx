@@ -7,6 +7,7 @@ import {
   FaYoutube,
   FaPaperPlane,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const FooterSection = () => {
   return (
@@ -63,7 +64,7 @@ const FooterSection = () => {
               <Link to="/blog">
                 {" "}
                 <li>
-                  <a href="/blog">Blog</a>
+                  <a href="#">Blog</a>
                 </li>
               </Link>
               <li>
