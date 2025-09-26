@@ -60,9 +60,12 @@ const FooterSection = () => {
               <li>
                 <a href="#featuredoctor">Services</a>
               </li>
-              <li>
-                <a href="/blog">Blog</a>
-              </li>
+              <Link to="/blog">
+                {" "}
+                <li>
+                  <a href="/blog">Blog</a>
+                </li>
+              </Link>
               <li>
                 <a href="#insights">FAQ</a>
               </li>
