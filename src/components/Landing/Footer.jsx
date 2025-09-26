@@ -52,22 +52,22 @@ const FooterSection = () => {
             <h3 className="ak-footer-widget-heading">Useful Links</h3>
             <ul className="ak-footer-links">
               <li>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#featuredoctor">Services</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="/blog">Blog</a>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <a href="#insights">FAQ</a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="#fo">Support</a>
               </li>
             </ul>
           </div>

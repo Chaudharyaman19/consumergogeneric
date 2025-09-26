@@ -5,6 +5,7 @@ import Register from "./components/Auth/Register";
 import Forgotpass from "./components/Auth/Forgotpass";
 import Sendotp from "./components/Auth/Sendotp";
 import Resetpassword from "./components/Auth/Resetpassword";
+import Blog from "./components/Landing/Blog";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/forgotpass" element={<Forgotpass />} />
         <Route path="/sendotp" element={<Sendotp />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/resetpassword" element={<Resetpassword />} />
       </Routes>
     </Router>
