@@ -48,8 +48,7 @@ export default function AquaticAnimals() {
   return (
     <main className="aqua-main">
       <div className="aqua-left">
-        <span>Explore</span>
-        <h1>Gogeneric</h1>
+        <h1>GOGENERIC</h1>
         <hr />
         <p>
           Generic medicines are drugs that have the same active ingredients,
