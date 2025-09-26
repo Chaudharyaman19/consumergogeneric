@@ -61,7 +61,10 @@ const FooterSection = () => {
               <li>
                 <a href="#featuredoctor">Services</a>
               </li>
-              <Link to="/blog">
+              <Link
+                to="/blog"
+                style={{ textDecoration: "none", color: "white" }}
+              >
                 {" "}
                 <li>
                   <a href="#">Blog</a>
