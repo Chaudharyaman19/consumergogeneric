@@ -46,11 +46,14 @@ const BannerSlider = () => {
       <Slider ref={sliderRef} {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="slide-container">
-            <img
-              src={slide.img}
-              alt={`Banner ${index}`}
-              className="slider-img"
-            />
+            <a href="https://play.google.com/store/apps/details?id=com.gogeneric.user">
+              {" "}
+              <img
+                src={slide.img}
+                alt={`Banner ${index}`}
+                className="slider-img"
+              />
+            </a>
             <div className="slide-text">
               {/* <h1>{slide.title}</h1>
               <p>{slide.subtitle}</p> */}
